@@ -95,7 +95,7 @@ def main():
                     print("Closing Task Manager...\n")
                     sys.exit()
                 else:
-                    print("Invalid Input\n")
+                    print("Invalid Input. Please try again.\n")
             except ValueError:
                 print("Input must be an integer...\n")
 
