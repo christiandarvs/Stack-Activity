@@ -75,7 +75,7 @@ def main():
                 choice = int(input("Enter Choice: "))
                 if choice == 1:
                     task_title = input("Enter Task Title: ").lower()
-                    task_desc = input("Enter Task Desc: ").lower()
+                    task_desc = input("Enter Task Description: ").lower()
                     print()
                     task = Task(task_title, task_desc)
                     result = task_manager.add_task(task)
